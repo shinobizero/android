@@ -507,4 +507,6 @@
 
   <include name="snippets/cm.xml" />
 
+  <include name="zero.xml" />
+
 </manifest>
