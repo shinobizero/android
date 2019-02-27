@@ -23,6 +23,7 @@
   <remove-project name="LineageOS/android_hardware_ti_omap4" />
   <remove-project name="LineageOS/android_hardware_ti_wlan" />
   <remove-project name="LineageOS/android_hardware_ti_wpan" />
+  <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_packages_apps_CMParts" />
   <remove-project name="LineageOS/android_packages_apps_FMRadio" />
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
@@ -55,6 +56,9 @@
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="shinobizero/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1-zero" />
+
+  <!-- System -->
+  <project path="system/core" name="shinobizero/platform_system_core" groups="pdk" remote="github" revision="cm-14.1-zero" />
 
   <!-- Apps -->
   <project path="packages/apps/CMParts" name="shinobizero/android_packages_apps_CMParts" remote="github" revision="cm-14.1-zero" />
