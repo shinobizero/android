@@ -4,7 +4,6 @@
   <!-- Packages To Remove -->
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_vendor_cm" />
-  <remove-project name="LineageOS/android_external_bash" />
   <remove-project name="platform/hardware/ti/omap3"  />
   <remove-project name="platform/hardware/ti/omap4-aah" />
   <remove-project name="LineageOS/android_hardware_ti_omap4xxx"/>
