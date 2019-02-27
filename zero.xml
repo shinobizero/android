@@ -2,9 +2,16 @@
 <manifest>
 
   <!-- Packages To Remove -->
+  <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_vendor_cm" />
+
+  <!-- Build -->
+  <project path="build" name="shinobizero/android_build" remote="github" revision="cm-14.1-zero">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
   <!-- Vendor -->
   <project path="manifest" name="shinobizero/platform_manifest" remote="github" revision="cm-14.1-zero" />
   <project path="vendor/zero" name="shinobizero/vendor_zero" remote="github" revision="cm-14.1-zero" />
+
 </manifest>
