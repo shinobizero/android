@@ -15,13 +15,14 @@
   <remove-project name="LineageOS/android" />
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_vendor_cm" />
+  <remove-project name="LineageOS/android_external_bash" />
+  <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="platform/hardware/ti/omap3"  />
   <remove-project name="platform/hardware/ti/omap4-aah" />
   <remove-project name="LineageOS/android_hardware_ti_omap4xxx"/>
   <remove-project name="LineageOS/android_hardware_ti_omap4" />
   <remove-project name="LineageOS/android_hardware_ti_wlan" />
   <remove-project name="LineageOS/android_hardware_ti_wpan" />
-  <remove-project name="LineageOS/android_external_bash" />
   <remove-project name="LineageOS/android_packages_apps_FMRadio" />
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <remove-project name="platform/packages/apps/RetailDemo" />
@@ -49,5 +50,8 @@
 
   <!-- External -->
   <project path="external/bash" name="shinobizero/android_external_bash" groups="pdk-fs" remote="github" revision="nougat-zero"/>
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="shinobizero/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1-zero" />
 
 </manifest>
