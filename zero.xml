@@ -4,7 +4,13 @@
   <!-- Packages To Remove -->
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_vendor_cm" />
-
+  <remove-project name="platform/hardware/ti/omap3"  />
+  <remove-project name="platform/hardware/ti/omap4-aah" />
+  <remove-project name="LineageOS/android_hardware_ti_omap4xxx"/>
+  <remove-project name="LineageOS/android_hardware_ti_omap4" />
+  <remove-project name="LineageOS/android_hardware_ti_wlan" />
+  <remove-project name="LineageOS/android_hardware_ti_wpan" />
+ 
   <!-- Build -->
   <project path="build" name="shinobizero/android_build" remote="github" revision="cm-14.1-zero">
     <copyfile src="core/root.mk" dest="Makefile" />
