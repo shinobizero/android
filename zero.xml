@@ -53,6 +53,7 @@
 
   <!-- External -->
   <project path="external/bash" name="shinobizero/android_external_bash" groups="pdk-fs" remote="github" revision="nougat-zero"/>
+  <project path="external/busybox" name="PureNexusProject-Legacy/android_external_busybox" remote="github" revision="n-mr2" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="shinobizero/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1-zero" />
