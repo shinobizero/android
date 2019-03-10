@@ -27,6 +27,7 @@
   <remove-project name="LineageOS/android_packages_apps_CMParts" />
   <remove-project name="LineageOS/android_packages_apps_FMRadio" />
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <remove-project name="LineageOS/android_packages_apps_Messaging" />
   <remove-project name="LineageOS/android_packages_apps_Recorder" />
   <remove-project name="platform/packages/apps/RetailDemo" />
   <remove-project name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
@@ -64,6 +65,7 @@
 
   <!-- Apps -->
   <project path="packages/apps/CMParts" name="shinobizero/android_packages_apps_CMParts" remote="github" revision="cm-14.1-zero" />
+  <project path="packages/apps/Messaging" name="OmniROM/android_packages_apps_Messaging" remote="github" revision="android-7.1" />
   <project path="packages/apps/Recorder" name="shinobizero/android_packages_apps_Recorder" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="packages/apps/Settings" name="shinobizero/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="cm-14.1-zero" />
 
